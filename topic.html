@@ -1,0 +1,30 @@
+<!-- topic.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="topic-header">
+    <h1>{{ topic.title }}</h1>
+    <p>Asked by: Аноним</p>
+</div>
+
+<div class="messages">
+    {% for message in topic.messages %}
+    <div class="message">
+        <!-- Заменяем отображение email на "Аноним" -->
+        <p>Аноним wrote:</p>
+        <p>{{ message.content }}</p>
+        <p>{{ message.image_filename }}</p>
+        {% if message.image_filename %}
+        <!-- Файл изображения находится в папке static/uploads -->
+        <div>
+            <img src="{{ url_for('static', filename='uploads/' + message.image_filename) }}"/>
+        </div>
+        {% else %}
+        <!-- Если изображение отсутствует -->
+            <p>[Изображение не найдено]</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
