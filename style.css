@@ -1,0 +1,104 @@
+.btn-custom {
+    background-color: #4682B4db;
+    color: black;
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover, .btn-custom:focus {
+    background-color: #4682B4;
+    color: #ffffff;
+}
+
+
+.card-title {
+    color: #4682B4;
+}
+
+.btn-primary {
+    background-color: #4682B4;
+    border-color: #4682B4;
+}
+
+.btn-primary:hover {
+    background-color: #4682B4;
+    border-color: #4682B4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.upload-container {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.upload-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+}
+
+
